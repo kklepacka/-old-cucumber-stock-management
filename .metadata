@@ -1,6 +1,7 @@
 description: |
     Cucumber 4 project doing some simple operations.
     One feature use the java param library.
+    Acceptance branch to test new versions of the library
 
 tags:
 - cucumber4
@@ -8,3 +9,4 @@ tags:
 - english
 - parameters
 - no_parameters
+- acceptance
