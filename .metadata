@@ -1,6 +1,7 @@
 description: |
     Cucumber 4 project doing some simple operations.
     One feature use the java param library.
+    Contains the plugin configuration to use the Squash TF Gherkin runner
 
 tags:
 - cucumber4
@@ -8,3 +9,4 @@ tags:
 - english
 - parameters
 - no_parameters
+- tf_gherkin_runner
