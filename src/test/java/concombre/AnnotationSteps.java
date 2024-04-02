@@ -79,17 +79,17 @@ public class AnnotationSteps {
 
     @Given("I count my current stock")
     public void i_count_my_current_stock() throws ParameterException {
-        currentStock = ParameterService.INSTANCE.getTestInt("DS_current_stock");
+        currentStock = 10;
     }
 
     @When("I count next month's estimated production")
     public void i_count_next_month_s_estimated_production() throws ParameterException {
-        estimatedProduction = ParameterService.INSTANCE.getTestInt("TC_CUF_estimated_production");
+        estimatedProduction = 100;
     }
 
     @When("I check my warehouse capacity")
     public void i_check_my_warehouse_capacity() throws ParameterException {
-        warehouseCapacity = ParameterService.INSTANCE.getTestInt("DS_warehouse_capacity");
+        warehouseCapacity = 200;
     }
 
     @Then("it should fit")
@@ -114,7 +114,7 @@ public class AnnotationSteps {
 
     @When("I check the warehouse's renting cost")
     public void i_check_the_warehouse_s_renting_cost() throws ParameterException {
-        rentingCost = ParameterService.INSTANCE.getTestFloat("DS_renting_cost");
+        rentingCost = 1;
     }
 
     @Then("the charges should not exceed a third of the products value")

@@ -4,11 +4,168 @@ Feature: Stock Management To Check Parameter
   Background:
     Given I count my current stock
 
-    @Community!@#
+@&
     Scenario: Next batch should fit in my warehouse
       When I count next month's estimated production
       And I check my warehouse capacity
       Then it should fit
+@é
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@« 
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@\"
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@l'age
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@~
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@{
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@(
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@[
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@-
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@|
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+
+
+@\`
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@\\
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@^
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@@
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@°
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@+
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@=
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@$
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@%
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@%tag%
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@*
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@?
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@\,
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@.
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@;
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@/
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@:
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@!
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@<>
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+@<
+    Scenario: Next batch should fit in my warehouse
+      When I count next month's estimated production
+      And I check my warehouse capacity
+      Then it should fit
+
+
+
+
+
 
     @Premiumùé
     Scenario: Warehouse charges should not exceed a third of the products value
