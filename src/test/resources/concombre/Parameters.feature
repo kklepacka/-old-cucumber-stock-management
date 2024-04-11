@@ -4,7 +4,7 @@ Feature: Stock Management To Check Parameter
   Background:
     Given I count my current stock
 
-@\&
+@&
     Scenario: Next batch should fit in my warehouse
       When I count next month's estimated production
       And I check my warehouse capacity
@@ -19,7 +19,7 @@ Feature: Stock Management To Check Parameter
       When I count next month's estimated production
       And I check my warehouse capacity
       Then it should fit
-@\"
+@"
     Scenario: Next batch should fit in my warehouse
       When I count next month's estimated production
       And I check my warehouse capacity
@@ -61,12 +61,12 @@ Feature: Stock Management To Check Parameter
       Then it should fit
 
 
-@\`
+@`
     Scenario: Next batch should fit in my warehouse
       When I count next month's estimated production
       And I check my warehouse capacity
       Then it should fit
-@\\
+@\
     Scenario: Next batch should fit in my warehouse
       When I count next month's estimated production
       And I check my warehouse capacity
@@ -121,7 +121,7 @@ Feature: Stock Management To Check Parameter
       When I count next month's estimated production
       And I check my warehouse capacity
       Then it should fit
-@\,
+@,
     Scenario: Next batch should fit in my warehouse
       When I count next month's estimated production
       And I check my warehouse capacity
